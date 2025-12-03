@@ -145,7 +145,7 @@ require "lsp"
 -- - 插件需先安装：打开 Neovim 后执行 :Lazy install vim-translator，自动下载安装（需联网）
 -- - 翻译失败排查：若弹窗无结果，检查网络连接（翻译需联网），或执行 :Lazy load vim-translator 手动加载
 -- - 快捷键冲突：若 <leader>t/<leader>tl/<leader>ti 无效，检查 config.lua 中是否有其他插件占用该快捷键，可在 translator.lua 中修改快捷键
--- - require("plugins.translator")
+ require("plugins.translator")
 
 
 -- ==============================================
