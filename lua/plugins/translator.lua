@@ -17,7 +17,7 @@ config["vim-translator"] = {
     event = "User IceLoad",     -- 加载时机：Ice 框架初始化完成后（和其他插件保持一致）
     keys = {                    -- 快捷键配置（<leader> 默认为空格，新手易操作）
         -- 普通模式：选中文字后按 <leader>t 翻译
-        { "n", "<leader>t", "<Plug>TranslateV", desc = "翻译：划词翻译（选中文本后使用）", silent = true },
+        { "v", "<leader>t", "<Plug>TranslateV", desc = "翻译：划词翻译（选中文本后使用）", silent = true },
         -- 普通模式：按 <leader>tl 翻译当前行
         { "<leader>tl", "<Plug>TranslateLine", desc = "翻译：翻译当前行内容", silent = true },
         -- 普通模式：按 <leader>ti 手动输入要翻译的内容
